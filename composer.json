@@ -1,0 +1,22 @@
+{
+    "name": "bestyii/yii2-ueditor-plus",
+    "description": "UEditor Plus 基于 UEditor 二次开发的富文本编辑器，让UEditor重新焕发活力",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","UEditor","Editor","javascript 编辑器","百度编辑器","百度 Editor","html 编辑器","富文本编辑器","在线编辑器","modstart"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ez",
+            "email": "ez@bestyii.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.6",
+        "moxuandi/yii2-helpers": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "bestyii\\ueditor\\plus\\": "src"
+        }
+    }
+}
